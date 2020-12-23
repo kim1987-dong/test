@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <title>Computer Virus</title>
+        <style>
+        body {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+p.a{
+    text-align: left;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+em.b{
+    font-size: 30px ;
+    text-align: center;
+}
+p.c{
+    font-size: 30px;
+    text-align: center;
+}
+header.header {
+    margin-left: 50px;
+}
+
+header.header h1 a {
+    color: rgb(10, 15, 26);
+    text-decoration: none;
+}
+    
+#menubar ul { /* 여백과 패딩 모두 0 */
+	margin : 0;
+	padding : 0;
+	width : 1040px; /* 모든 아이템(<li>)을 한 줄에 품을 수 있는 폭 */
+}
+#menubar ul li {
+	display : inline-block; /* 새 줄로 넘어가지 않게 */
+	list-style-type : none; /* 마커 삭제 */
+	padding : 25px 60px; /* top=bottom=0, left=right=15px */ 
+}
+#menubar ul li a {
+    margin-left: 50px;
+	color : rgb(32, 20, 95);
+    font-size: 25px;
+  	text-decoration : none; /* 링크 보이지 않게 */
+}
+#menubar ul li a:hover {
+ 	color : rgb(126, 121, 114);  /* 마우스 올라 갈 때 색 */
+}
+
+        </style>
+    </head>
+    <body>   
+        <div>
+            <header class="header">
+                <h1><a href="index.html">Computer Virus</a></h1>
+            </header>
+        </div>
+        <div>
+            <hr>
+        <nav id="menubar">
+            <ul>
+                <li><a href="virus.html">바이러스</a></li>
+                <li><a href="vaccin.html">백신</a></li>
+                <li><a href="Terror.html">피해사례</a></li>
+                <li><a href="news.html">새 소식</a></li>
+            </ul>
+            <hr>
+        </nav>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <em class="b">컴퓨터 백신이란?</em>
+            <hr>
+            <p class="a">
+            컴퓨터 바이러스 프로그램을 찾아 기능을 정지시키거나 제거하는 프로그램이다. 컴퓨터 백신은 바이러스 백신 프로그램, 바이러스 백신, 안티바이러스 프로그램 등 다양한 이름으로 불리고 있다.
+            컴퓨터 백신은 컴퓨터 바이러스의 성능이 향상함에 따라 이를 막기 위해 발달하는 형식으로 발달하여 컴퓨터 백신의 역사는 컴퓨터 바이러스의 역사라고 말할 수 있다.
+            초기의 컴퓨터 백신은 특정 바이러스만 잡아냈지만, 기술이 발달함에 따라 다양한 악성 프로그램이 발달하여 이를 미리 예방하거나 찾아내 제거하는 형태로 발전되어 왔고, 종류는 <span style="color:red">윈도우 디펜더, V3, 어베스트, 알약 등</span> 다양한 무료 프로그램이 존재한다.
+            </p>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <em class="b">윈도우 디펜더</em>
+            <hr>
+            <p class="a">
+                윈도우 디펜더는 기본적으로 윈도우에 내장된 백신이라 신경을 쓰지 않아도 PC를 보호해주고 윈도우의 환경에서 오진이 발생하지 않는다. 낚시용 바이러스를 배포하는 백신 프로그램을 다운할 확률을 줄여준다.
+                하지만 초기 출시때는 성능이 우수하였으나 현재 나오는 다른 백신에 비해 성능이 차이나고 대중적이기 때문에 윈도우 디펜더를 토대로 해 악성코드를 제작하여 윈도우 디펜더만의 성능만으로는 역부족이라는 견해고 있고, 불필요한 파일의 검사까지 진행하여 검사 진행 속도가 느리다. 또한 PC를 최적화시킬 수 있는 기능이 부족하다.  
+            </p>
+            <div>
+                <pre>
+                    <p class="c">실행방법</p>
+                    <iframe src="iframe-1.html" width="950" height="260" frameborder="0"></iframe>
+                    <iframe src="iframe-2.html" width="950" height="260" frameborder="0"></iframe>
+                </pre> 
+            </div>           
+        </div>
+        <div>
+            <em class="b">V3</em>
+            <hr>
+            <p class="a">
+                ASD(Ahnlab Smart Defence)라는 클라우드 기반의 보안 기능을 적용하여 알려지지 않은 파일을 클라우드 서버로 전송한 뒤 분석하여 악성 여부를 판단하여, 악성 파일이 확인되면 사용자 PC에 결과를 전송하고 즉각 서버 DB에 추가하며, 클라우드 기반 진단의 경우 시그니처 업데이트가 불필요하다.
+                또한 다른 프로그램과 호환성 측면이 무난하여 한번 설정만 하면 건드릴일 없다. 하지만 V3를 해외 환경에서 사용하는 것은 적절하지 못하다. 요즘 악성코드가 지역 맞춤형으로 섬세하게 설계되고 있으며 치고 빠지는 게릴라 전술,
+                심지어 APT 기법까지 동원하기 때문에 관련 데이터베이스 업데이트가 느릴 수밖에 없어 대응이 상대적으로 힘들다.
+            </p>
+            <br>
+            <div>
+                <p class="c">실행방법</p>
+                <div align="center">
+                    <iframe src="iframe-5.html" width="950" height="260" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div>
+            <em class="b">어베스트</em>
+            <hr>
+            <p class="a">
+                파일 시스템 감시, 웹 감시, 메일 감시가 있으며, 각자 분야별로 최적화된 실시간 감시 기능을 제공한다. 또한 브라우저 애드온 검사, 오래된 소프트웨어 검사, 네트워크 위협 검사 같은 기능도 제공하고,
+                샌드박스 기능을 제공하여 바이러스 본체라고 해도 바라면 자체 가상머신 위에서 프로그램을 돌리거나 네이티브로 프로그램을 돌릴 수 있다. 
+                이 기능으로 의심스러운 프로그램이나 파일을 가상머신 위에서 돌려 감염을 막을 수 있다는 것이다. 
+                하지만 
+                다른 백신들에 비해 오진율이 높고 새로운 버전이 등장하면 버그 등 안정성 부분의 효율이 떨어져 베타로 나오는 것을 정식 버전으로 출시한다.
+            </p>
+            <br>
+            <div>
+                <p class="c">실행방법</p>
+                <div align="center">
+                    <iframe src="iframe-6.html" width="950" height="260" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>
